@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import LogIltem from './LogItem';
+import LogItem from './LogItem';
 import Preloader from '../layout/Preloader';
 
 const Logs=() => {
@@ -31,7 +31,7 @@ const Logs=() => {
                 <h4 className="center">System Logs</h4>
             </li>
             {!loading && logs.length === 0 ? (<p className="center">No logs to show...</p>):(
-                logs.map(log=> <LogIltem log={log} key = {log.id}/>)
+                logs.map(log=> <LogItem log={log} key = {log.id}/>)
             )}
         </ul>
     )
