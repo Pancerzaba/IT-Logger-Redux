@@ -6,6 +6,8 @@ import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModale';
 import TechListModal from './components/techs/TechListModal';
+import { Provider } from 'react-redux';
+import store from './store';
 
 import M from 'materialize-css';
 import './App.css';
@@ -16,6 +18,7 @@ const App = () => {
     M.AutoInit();
   });
   return (
+    <Provider store={store}>
     <Fragment>
       <SearchBar />
       <div className="container">
@@ -27,6 +30,7 @@ const App = () => {
         <Logs />
       </div>
     </Fragment>
+    </Provider>
   );
 };
 
