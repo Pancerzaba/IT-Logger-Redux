@@ -1,44 +1,49 @@
 {
-    "logs": [
-        {
-            "id": 1,
-            "message": "Changed hard drive on workstation 005",
-            "attention": false,
-            "date": "17 August 2020",
-            "tech": " Sam Smith "
-        },
-        {
-            "id": 2,
-            "message": "Workstation 007 not posting",
-            "attention": true,
-            "date": "17 August 2020",
-            "tech": " Jacek Kot "
-        },
-        {
-            "id": 3,
-            "message": "Changed memory on workstation 050",
-            "attention": false,
-            "date": "17 August 2020",
-            "tech": " Sara Mach "
-        }
-    
-    ],
-    "techs": [
-        {
-            "id":1,
-            "firstName": "Sam",
-            "lastName": "Smith"
-        },
-        {
-            "id":2,
-            "firstName": "Jacek",
-            "lastName": "Kot"
-        },
-        {
-            "id":1,
-            "firstName": "Sara",
-            "lastName": "Mach"
-        }
-
-    ]
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed hard drive on workstation 005",
+      "attention": false,
+      "date": "17 August 2020",
+      "tech": " Sam Smith "
+    },
+    {
+      "id": 2,
+      "message": "Workstation 007 not posting",
+      "attention": true,
+      "date": "17 August 2020",
+      "tech": " Jacek Kot "
+    },
+    {
+      "id": 3,
+      "message": "Changed memory on workstation 050",
+      "attention": false,
+      "date": "17 August 2020",
+      "tech": " Sara Mach "
+    },
+    {
+      "message": "Changed hard drive on workstation 010",
+      "tech": "Jacek Kot",
+      "attention": false,
+      "date": "2020-08-28T18:49:29.506Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 2,
+      "firstName": "Jacek",
+      "lastName": "Kot"
+    },
+    {
+      "id": 1,
+      "firstName": "Sara",
+      "lastName": "Mach"
+    }
+  ]
 }
