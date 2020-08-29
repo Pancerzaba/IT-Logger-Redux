@@ -8,13 +8,6 @@
       "tech": " Sam Smith "
     },
     {
-      "id": 2,
-      "message": "Workstation 007 not posting",
-      "attention": true,
-      "date": "17 August 2020",
-      "tech": " Jacek Kot "
-    },
-    {
       "id": 3,
       "message": "Changed memory on workstation 050",
       "attention": false,
@@ -22,10 +15,10 @@
       "tech": " Sara Mach "
     },
     {
-      "message": "Changed hard drive on workstation 010",
-      "tech": "Jacek Kot",
-      "attention": false,
-      "date": "2020-08-28T18:49:29.506Z",
+      "message": "Hard drive failed in workstation 007",
+      "tech": "Sam Smitch",
+      "attention": true,
+      "date": "2020-08-29T10:14:31.370Z",
       "id": 4
     }
   ],
