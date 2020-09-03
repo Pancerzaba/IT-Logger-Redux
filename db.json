@@ -2,10 +2,10 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed hard drive on workstation 005",
-      "attention": false,
-      "date": "17 August 2020",
-      "tech": " Sam Smith "
+      "message": "Fixed hard drive on workstation 005",
+      "attention": true,
+      "tech": "Jacek Kot",
+      "date": "2020-09-03T14:41:46.232Z"
     },
     {
       "id": 3,
