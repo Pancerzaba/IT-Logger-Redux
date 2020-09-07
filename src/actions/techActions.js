@@ -1,4 +1,4 @@
-import { GET_TECHS, ADD_TECH, DELETE_TECH, SET_LOADING, TECHS_ERROE} from './types';
+import { GET_TECHS, ADD_TECH, DELETE_TECH, SET_LOADING, TECH_ERROR} from './types';
 
 //Get techs from server
 export const getTechs =()=>async dispatch=>{
@@ -15,7 +15,7 @@ export const getTechs =()=>async dispatch=>{
         });
     } catch (err) {
         dispatch({
-            type:LOGS_ERROR,
+            type:TECH_ERROR,
             payload: err.response.statusText
         });
     }
